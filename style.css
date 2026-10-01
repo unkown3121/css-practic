@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2025/02/volshebnaya_kartinka_kotoraya_pridast_sil_i_povysit_motivaciyu_1739655838_lh_average.png);
+background-repeat: no-repeat;
+background-position: up;
+background-size: 100%;
+background-color: black;
+background-attachment: fixed;
+}
+.main-text {
+    color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    /* font-weight: bold; */
+    font-family: sans-serif, bold;
+    text-transform: lowercase;
+    word-spacing: 3px;
+    letter-spacing: -5px;
+    line-height: 50px;
+    cursor: no-drop;
+}
+.two-text {
+    color: red;
+}
+#base {
+    color: rgb(177, 128, 128);
+}
+/* .i {
+    color: fuchsia;
+}*/
+.main-link {
+    color: red;
+    text-decoration: none;
+}
+.main-link:hover {
+    color: chartreuse;
+    text-decoration: underline;
+    text-decoration-color:red;
+    cursor: pointer;
+}
+.main-link:active {
+    text-decoration: line-through;
+}
+.main-link:visited {
+    text-decoration: line-through;
+    color: aqua;
+}
+input:required {
+    color: rgb(131, 15, 15);
+}
+input {
+    color: blue;
+}
+input:focus {
+    color: red;
+}
+#block {
+    background: rebeccapurple;
+    height: 200px;
+    width: 500px;
+    border: 10px dotted chocolate;
+    border-top: 10px solid black;
+    border-radius: 35% 35% 35% 0%;
+    opacity: 80%;
+    margin: 20px;
+    padding: 20px;
+}
+.block2 {
+    text-align: center;
+}
